@@ -1,0 +1,28 @@
+*{
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.name{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    filter: drop-shadow(2px 2px 10px yellow);
+    color: yellow;
+}
+.banner{
+    background-image: url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABfiqv2Th67pFLpn6jzARZGNhBFTtaTfd4i5KPN1-WoxqDUerVqy4i7Yw_hRk146SO2KGIjra0RIIuHbv8oZ0m9LV5YZItZygejeC.jpg?r=15c&quot;");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 900px;
+
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
